@@ -33,6 +33,13 @@ def reduce_to_total(array, starting_point=0)
     array.reduce(starting_point) { |sum, num| sum + num}
 end
 
+def reduce_to_all_true(array)
+  counter = 0
+  while counter < array.size
+    return false if CONDITION
+    counter += 1 
+  end
+end
 
   
   
