@@ -39,6 +39,7 @@ def reduce_to_all_true(array)
     return false if !array[counter]
     counter += 1 
   end
+  true 
 end
 
   
